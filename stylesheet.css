@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbimg_25361957thumbejpg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration-color: aliceblue;
+}
+header .logo{
+    position: relative;
+    color:teal;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    
+    
+}
+.navigation a:hover{
+    background:chocolate;
+}
+header .navigation .a:not(:last-child){
+    margin-right: 30px;
+
+}
+.cont{
+    color:burlywood;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+.content{
+    max-width: 650px;
+    margin: 50px 100px;
+}
+.content .info h2{
+    color :black;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.span{
+    color: whitesmoke;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.info-btn{
+    color: #fff;
+    background-color:gray;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    transition-property: initial;
+}
+.info-btn:hover{
+    background:lightseagreen;
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    margin:auto ;
+}
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child){    
+    margin-right: 60px;
+}
+.media-icons a:hover{
+    background: chartreuse;
+    border-radius: 01.5px;
+}
